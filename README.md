@@ -21,10 +21,10 @@ Also change the namespace statement in `application/controllers/home.php`.
 
 Set up a virtual host, i.e. to `dev.projectname` and navigate to it.
 You should see a "Hello World" example application.
+
+#### Play & make
+
 Experiment with `application/controllers/home.php` to get to know fem.
-
-#### Further steps
-
 See [fem's own documentation](https://github.com/lode/fem/wiki) for further steps.
 
 
