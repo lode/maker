@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "261e6193e5bf6044cfddedc93e3d4af9",
-    "content-hash": "fe4e8a46c84c7aad98cac75de64c2e43",
+    "hash": "eab383bb2e7c572fca8946a4f8939aec",
+    "content-hash": "dfc30a02621a4afeb2eb912dadf244de",
     "packages": [
         {
             "name": "alsvanzelf/fem",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lode/fem.git",
-                "reference": "ecbd519f9fe5983ea580f0a7e0ccfe04d00a2ed3"
+                "reference": "c5764e3bb27fc8a56f09fcff55a1a2c757421e89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lode/fem/zipball/ecbd519f9fe5983ea580f0a7e0ccfe04d00a2ed3",
-                "reference": "ecbd519f9fe5983ea580f0a7e0ccfe04d00a2ed3",
+                "url": "https://api.github.com/repos/lode/fem/zipball/c5764e3bb27fc8a56f09fcff55a1a2c757421e89",
+                "reference": "c5764e3bb27fc8a56f09fcff55a1a2c757421e89",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-04-23 16:52:24"
+            "time": "2016-04-27 15:10:24"
         },
         {
             "name": "guzzlehttp/guzzle",

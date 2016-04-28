@@ -1,8 +1,21 @@
 {
-	"autoload": {
-		"psr-4": {
-			"projectname\\": "application/"
+	"name": "alsvanzelf/maker",
+	"type": "library",
+	"description": "setup a new project using fem",
+	"keywords": ["framework", "fem"],
+	"homepage": "https://github.com/lode/maker",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lode Claassen",
+			"email": "lode@alsvanzelf.nl",
+			"homepage": "http://www.lodeclaassen.nl/"
 		}
+	],
+	"support": {
+		"docs": "https://github.com/lode/fem/wiki",
+		"issues": "https://github.com/lode/fem/issues",
+		"source": "https://github.com/lode/maker/tree/master/src"
 	},
 	"require": {
 		"alsvanzelf/fem": "dev-master"
