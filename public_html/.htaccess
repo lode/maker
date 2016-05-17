@@ -1,14 +1,17 @@
 # timestamped resources
 # =====
 
-ExpiresActive on
-ExpiresByType text/css               "access plus 1 year"
-ExpiresByType application/javascript "access plus 1 year"
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType text/css               "access plus 1 year"
+	ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.+)\.([\d]{10})\.(css|js)$ $1.$3 [L]
+
 
 
 # start redirection
